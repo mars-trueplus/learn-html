@@ -1,3 +1,32 @@
 body {
-    background: #00A04A;
+    background-color: #f6f6f6;
 }
+
+.left-column .logo {
+    margin-top: 3px;
+    margin-left: 9px;
+}
+
+.left-column .block-list .first {
+    margin-top: 26px;
+}
+
+.left-column .block-list {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.left-column .block-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+
+.left-column .block-list h4 {
+    margin: 0 0 5px 0;
+    color: #444444;
+    font-weight: lighter;
+}
+
