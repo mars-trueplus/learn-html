@@ -28,5 +28,10 @@ body {
     margin: 0 0 5px 0;
     color: #444444;
     font-weight: lighter;
+    background-image: linear-gradient(to right, #d8d8d8, #f6f6f6);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    width: 131px;
+    background-size: 100% 1px;
 }
 
