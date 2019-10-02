@@ -1,10 +1,18 @@
 @font-face {
     font-family: 'ProximaNova-Regular';
-    src: url("../fonts/proximanova-regular.otf");
+    src: url("../fonts/proxima-nova-regular.otf");
 }
 body {
     background-color: #f6f6f6;
     font-family: ProximaNova-Regular;
+}
+
+.left-column {
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    float: left;
+    width: 168px;
 }
 
 .left-column .logo {
@@ -45,5 +53,31 @@ body {
 }
 
 .left-column .block-list a {
+    text-decoration: none;
+}
+
+.right-column {
+    width: calc(100% - 170px);
+    float: right;;
+}
+
+.right-column .top-nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.right-column .top-nav ul{
+    list-style: none;
+    display: flex;
+}
+.right-column .top-nav ul li {
+    margin-left: 20px;
+}
+
+.right-column .bottom-nav ul {
+    list-style: none;
+}
+
+.right-column .bottom-nav a {
     text-decoration: none;
 }
