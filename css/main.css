@@ -69,6 +69,7 @@ body {
 .right-column .top-nav ul{
     list-style: none;
     display: flex;
+    margin-bottom: 0;
 }
 .right-column .top-nav ul li {
     margin-left: 20px;
