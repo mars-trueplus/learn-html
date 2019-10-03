@@ -75,9 +75,20 @@ body {
 }
 
 .right-column .bottom-nav ul {
+    display: flex;
     list-style: none;
+    padding: 0;
 }
 
 .right-column .bottom-nav a {
     text-decoration: none;
+}
+
+.right-column .bottom-nav ul li {
+    margin-right: 20px;
+}
+
+.right-column .bottom-nav {
+    display: flex;
+    justify-content: space-between;
 }
