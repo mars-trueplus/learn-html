@@ -2,6 +2,7 @@
     font-family: 'ProximaNova-Regular';
     src: url("../fonts/proxima-nova-regular.otf");
 }
+
 body {
     background-color: #f6f6f6;
     font-family: ProximaNova-Regular;
@@ -20,7 +21,7 @@ body {
     margin-left: 9px;
 }
 
-.left-column .logo img{
+.left-column .logo img {
     width: 135px;
     height: 155px;
 }
@@ -37,7 +38,7 @@ body {
 .left-column .block-list ul {
     list-style-type: none;
     padding: 0;
-    margin: 5px 0 0 0 ;
+    margin: 5px 0 0 0;
 }
 
 
@@ -66,11 +67,12 @@ body {
     flex-direction: row-reverse;
 }
 
-.right-column .top-nav ul{
+.right-column .top-nav ul {
     list-style: none;
     display: flex;
-    margin-bottom: 0;
+    margin-bottom: 23px;
 }
+
 .right-column .top-nav ul li {
     margin-left: 20px;
 }
@@ -78,7 +80,12 @@ body {
 .right-column .bottom-nav ul {
     display: flex;
     list-style: none;
-    padding: 0;
+    /*padding: 9px 0;*/
+    padding:0;
+    border: solid 1px #a5d5fb;
+    background-color: #f9f9f9;
+    margin-top: auto;
+    height: 100%;
 }
 
 .right-column .bottom-nav a {
@@ -87,9 +94,27 @@ body {
 
 .right-column .bottom-nav ul li {
     margin-right: 20px;
+    border-right: 1px solid #a5d5fb;
+}
+
+.right-column .bottom-nav ul li:last-child {
+    border-right: none;
 }
 
 .right-column .bottom-nav {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #a5d5fb;
+}
+
+.right-column .bottom-nav .bottom-right-nav{
+    display: flex;
+}
+
+.right-column .bottom-nav .bottom-right-nav input{
+    margin-left: 27px;
+    height: 28px;
+    width: 320px;
+    margin-top: auto;
+    margin-bottom: 3px;
 }
