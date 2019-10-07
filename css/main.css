@@ -170,9 +170,7 @@ h2 {
 
 .center-content .main-content-left {
     width: 58%;
-    border: 1px solid #cdf2df;
     margin-right: 1.7%;
-    background-color: #f5fffa;
 }
 
 .center-content .main-content-right {
@@ -198,8 +196,28 @@ h2 {
     margin-bottom: 25px;
 }
 
+.center-content .block-content-left ul:not(.normal) {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.center-content .block-content-left ul.bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center-content .block-content-left ul li{
+    margin-right: 10px;
+}
+
 .center-content .block-content-right h2{
     background-color: #cddff3;
     margin-bottom: 25px;
     border: 1px solid #a1b0c0;
+}
+
+.center-content .block-content-left .image-content-right {
+    float: right;
+    width: 120px;
 }
