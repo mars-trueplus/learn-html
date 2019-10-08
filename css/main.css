@@ -255,10 +255,13 @@ h2 {
     background-color: #faf5ff;
     margin-bottom: 25px;
     border: 1px solid #ddcdf3;
+    height: 440px;
+    padding: 10px;
 }
 
-.main-content-highlight h2{
+.main-content-highlight h2 {
     background-color: #ddcdf3;
+    margin-bottom: 30px;
 }
 
 .main-content-highlight img {
@@ -266,4 +269,61 @@ h2 {
     height: 341px;
     float: left;
     margin-right: 0.9%;
+}
+
+.main-content-highlight .first-paragraph {
+    padding-top: 100px;
+}
+
+.main-content-highlight ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-content-highlight span {
+    font-size: 12px;
+}
+
+.main-content-other-area {
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    border: 1px solid #ddcdf3;
+    padding: 10px;
+}
+
+.main-content-other-area ul {
+    padding-left: 15px;
+}
+
+.main-content-other-area h2 {
+    background-color: #eeeeee;
+}
+
+.main-content-sister-projects {
+    border: 1px solid #e3e3e3;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.main-content-sister-projects h2 {
+    background-color: #eeeeee;
+}
+
+.main-content-sister-projects .list-sites {
+    display: flex;
+    padding-bottom: 50px;
+
+}
+
+.main-content-sister-projects .list-sites ul {
+    list-style: none;
+}
+
+.main-content-sister-projects .list-sites ul li{
+    margin-bottom: 15px;
+}
+
+.footer {
+    clear: both;
 }
