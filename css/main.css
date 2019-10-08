@@ -130,6 +130,7 @@ h2 {
 
 .body-content {
     border-left: 1px solid #a5d5fb;
+    border-bottom: 1px solid #a5d5fb;
 }
 
 .body-content .main-content {
@@ -320,10 +321,36 @@ h2 {
     list-style: none;
 }
 
-.main-content-sister-projects .list-sites ul li{
+.main-content-sister-projects .list-sites ul li {
     margin-bottom: 15px;
 }
 
 .footer {
     clear: both;
+    display: flex;
+    flex-direction: column;
+    margin-left: 165px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer ul li {
+    margin-right: 10px;
+}
+
+.footer .both-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+.footer .footer-left {
+    margin-right: 20px;
 }
